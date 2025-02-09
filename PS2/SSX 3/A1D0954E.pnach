@@ -1,0 +1,17 @@
+[Disable intro videos (ea / thx / splash)]
+author=Meridian
+patch=0,EE,001A2630,word,0000202D
+patch=0,EE,001A2654,word,0000202D
+patch=0,EE,001A2688,word,0000202D
+
+[Disable $20 payout limit]
+author=Meridian
+patch=0,EE,0011A748,word,00000000
+patch=0,EE,0011786C,word,00000000
+patch=0,EE,0011972C,word,00000000
+
+[Fix Metro Slowdown]
+author=Meridian
+description=Disable perf frame skip
+patch=0,EE,0023087C,word,00000000
+patch=0,EE,00230888,word,00000000

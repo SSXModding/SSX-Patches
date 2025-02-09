@@ -1,0 +1,11 @@
+[Extended Character Select on Main Menu]
+author=SlyCooperReloadCoded and rectangularidiot
+patch=1,EE,203C68E0,extended,0019DB84
+
+[Frozen Demo Idle Timer]
+author=SlyCooperReloadCoded and rectangularidiot
+patch=1,EE,204011DD,extended,F0000000
+
+[Frozen Event Timer]
+author=SlyCooperReloadCoded and rectangularidiot
+patch=1,EE,204011E6,extended,00014270
