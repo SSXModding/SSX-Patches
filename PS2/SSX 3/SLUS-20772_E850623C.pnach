@@ -1,0 +1,21 @@
+[Disable intro videos (ea / thx / splash)]
+author=Meridian
+patch=0,EE,001A2EB0,word,0000202D
+patch=0,EE,001A2ED4,word,0000202D
+
+[Disable $20 payout limit]
+author=Meridian
+patch=0,EE,0011A700,word,00000000
+patch=0,EE,00117824,word,00000000
+patch=0,EE,001196E4,word,00000000
+
+[Fix Metro Slowdown]
+author=Meridian
+description=Disable perf frame skip
+patch=0,EE,0022FF94,word,00000000
+patch=0,EE,0022FFA0,word,00000000
+
+[Disabled Light Glow]
+author=SlyCooperReloadCoded
+patch=1,EE,204A6B68,extended,00000000
+patch=1,EE,204A6B6C,extended,00000001
