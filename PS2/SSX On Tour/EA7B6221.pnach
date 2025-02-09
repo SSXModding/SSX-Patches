@@ -1,0 +1,3 @@
+[lily\Disable Demo Mode]
+comment=Disables demo mode by freezing the demo flag to 0
+patch=1,EE,005781cc,extended,00000000
