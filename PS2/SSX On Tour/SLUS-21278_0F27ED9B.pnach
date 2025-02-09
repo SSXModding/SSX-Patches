@@ -1,0 +1,4 @@
+[60 fps Patch]
+author=MelA
+patch=1,EE,003132B4,extended,01001124
+patch=1,EE,003132B8,extended,15000010
