@@ -1,0 +1,23 @@
+[Moon Gravity]
+author=modeco80
+patch=1,EE,002c203c,word,3a888889
+
+[Crazy Negative Gravity]
+author=modeco80
+patch=1,EE,002c203c,word,bc888889
+
+[No speedcap]
+author=modeco80
+patch=1,EE,002c10d8,word,4851338e
+
+[Who needs RNG (Non-Time based rng)]
+author=modeco80
+patch=1,EE,002109e0,word,3c020000
+patch=1,EE,002109e4,word,03e00008
+patch=1,EE,002109e8,word,00000000
+
+[Who needs RNG (Time based rng)]
+author=modeco80
+patch=1,EE,002109b0,word,3c020000
+patch=1,EE,002109b4,word,03e00008
+patch=1,EE,002109b8,word,00000000
