@@ -1,0 +1,41 @@
+[Turn off The Fog]
+author=Mumbastic
+patch=1,EE,204BE6A0,extended,00000000
+
+[Infinite Event + Demo Time]
+patch=1,EE,204BE144,extended,42B40000
+patch=1,EE,204BE13C,extended,00000000
+
+[Debug Quick Start Menu]
+patch=1,EE,0043F890,extended,00000034
+
+[Enable The Pause Menu]
+patch=1,EE,204493DC,extended,00000001
+patch=1,EE,204493D8,extended,00000001
+patch=1,EE,204493D4,extended,00000001
+patch=1,EE,204493D0,extended,00000001
+patch=1,EE,204493CC,extended,00000001
+patch=1,EE,204493C8,extended,00000001
+patch=1,EE,204493C4,extended,00000001
+patch=1,EE,204493C0,extended,00000001
+patch=1,EE,204493BC,extended,00000001
+patch=1,EE,204493B8,extended,00000001
+patch=1,EE,204493B4,extended,00000001
+patch=1,EE,204493B0,extended,00000001
+patch=1,EE,204493A8,extended,00000001
+patch=1,EE,20449360,extended,00000001
+patch=1,EE,2044935C,extended,00000001
+patch=1,EE,20449358,extended,00000001
+patch=1,EE,2044933C,extended,00000001
+patch=1,EE,20449334,extended,00000001
+patch=1,EE,20449328,extended,00000001
+patch=1,EE,204491D4,extended,00000001
+patch=1,EE,20449144,extended,00000001
+patch=1,EE,20449140,extended,00000001
+patch=1,EE,2044913C,extended,00000001
+patch=1,EE,20449024,extended,00000001
+patch=1,EE,20449020,extended,00000001
+patch=1,EE,20448FB8,extended,00000001
+patch=1,EE,20448FB4,extended,00000001
+patch=1,EE,20448F94,extended,00000001
+patch=1,EE,20448F90,extended,00000001
