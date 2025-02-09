@@ -17,5 +17,14 @@ patch=0,EE,00230704,word,00000000
 patch=0,EE,00230710,word,00000000
 
 [Fixed camera algorithm]
+author=Modeco80
 description=Change the last byte in the patch to different values for diff camera algorithms
 patch=1,EE,0015D08C,word,24110020
+
+[SSX 3 NSTC Online Server Address]
+author=GlitcherOG
+description=Updates the Server Address
+patch=0,EE,004807D8,word,322E3434
+patch=0,EE,004807DC,word,322E3232
+patch=0,EE,004807E0,word,31312E30
+patch=0,EE,004807E4,word,00000037
