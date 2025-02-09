@@ -1,0 +1,32 @@
+[Moon Gravity]
+author=modeco80
+patch=1,EE,0012b7f0,word,3c01ff50
+
+[No Speed Cap]
+author=modeco80
+patch=1,EE,0012b348,word,3c014f51
+patch=1,EE,001179fc,word,3c014f51
+
+[Near-Infinite Tokyo Megaplex Laps]
+author=SlyCooperReloadCoded/Linkz
+patch=1,EE,E0010004,extended,00AF76D4
+patch=1,EE,20AF76D4,extended,FFFFFFFF
+
+[Infinite Tokyo Megaplex Laps]
+author=SlyCooperReloadCoded/Linkz
+patch=1,EE,0011A434,extended,00000000
+
+[L3 + R3 Skips to Finishing Lap Tokyo Megaplex]
+author=SlyCooperReloadCoded
+patch=1,EE,E10100C0,extended,0084588D 
+patch=1,EE,20AF76D4,extended,00000000
+
+[Reverse laps remaining count]
+author=Linkz
+patch=1,EE,0011A430,short,00000001
+
+[Reverse laps remaining count (Starts at one and Counts up)]
+author=SlyCooperReloadCoded
+patch=1,EE,0011A430,short,00000001
+patch=1,EE,E0010004,extended,00AF76D4
+patch=1,EE,20AF76D4,extended,00000001
