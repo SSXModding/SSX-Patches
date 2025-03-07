@@ -1,0 +1,24 @@
+$All peaks (MasterKey)
+00697DF4 00000001
+$Full stats (AllStars)
+00697DF5 00000001
+$Default stats (FairPlay)
+00697DF6 00000001
+$All characters (NoHolds)
+00697DF7 00000001
+$All outfits (ClothShop)
+00697DF8 00000001
+$All ubertricks (Comboer)
+00697DF9 00000001
+$All boards and skis (SportShop)
+00697DFA 00000001
+$All concept art (Artistry)
+00697DFB 00000001
+$Infinite groove (FullGasTank)
+00697DFC 00000001
+$Reset high scores (BlankRecord)
+00697DFD 00000001
+$Overscan frame (no password)
+00697DFE 00000001
+$Yeti outfit (WildFur)
+00697DFF 00000001
