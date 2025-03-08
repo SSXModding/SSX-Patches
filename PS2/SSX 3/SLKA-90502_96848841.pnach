@@ -39,3 +39,26 @@ patch=1,EE,20448FB8,extended,00000001
 patch=1,EE,20448FB4,extended,00000001
 patch=1,EE,20448F94,extended,00000001
 patch=1,EE,20448F90,extended,00000001
+
+[Debug Menu]
+author=Lily
+comment=Enables the SSX Debug Menu. Use Circle in the pause menu to enter the debug menu.
+// Trampoline
+patch=1,EE,0041cd58,word,3c08004b
+patch=1,EE,0041cd5c,word,3508cbc8
+patch=1,EE,0041cd60,word,00804821
+patch=1,EE,0041cd64,word,8d0b0000
+patch=1,EE,0041cd68,word,00005021
+patch=1,EE,0041cd6c,word,340a0008
+patch=1,EE,0041cd70,word,10ca0003
+patch=1,EE,0041cd74,word,00000000
+patch=1,EE,0041cd78,word,01200008
+patch=1,EE,0041cd7c,word,00000000
+patch=1,EE,0041cd80,word,8d64005c
+patch=1,EE,0041cd84,word,8c050000
+patch=1,EE,0041cd88,word,44806000
+patch=1,EE,0041cd8c,word,0807f0ae
+patch=1,EE,0041cd90,word,00000000
+// Trampoline Entry
+patch=1,EE,001b75e4,word,0c107356
+patch=1,EE,001b75e8,word,00000000
