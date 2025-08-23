@@ -62,3 +62,8 @@ patch=1,EE,0041cd90,word,00000000
 // Trampoline Entry
 patch=1,EE,001b75e4,word,0c107356
 patch=1,EE,001b75e8,word,00000000
+
+[Lily\60FPS]
+author=modeco80
+comment=60 FPS gameplay
+patch=0,EE,002e5de0,word,2a220000
