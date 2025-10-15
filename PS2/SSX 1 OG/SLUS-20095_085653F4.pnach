@@ -21,3 +21,13 @@ author=modeco80
 patch=1,EE,002109b0,word,3c020000
 patch=1,EE,002109b4,word,03e00008
 patch=1,EE,002109b8,word,00000000
+
+[Warmup As Snowdream]
+author=GlitcherOG (Archy)
+description=Makes Snowdream Load Warmup
+patch=1,EE,002AF6E0,word,6D726177
+patch=1,EE,002AF6E4,word,00007075
+patch=1,EE,002AF6E8,word,00000000
+
+patch=1,EE,002C45F0,word,6D726177
+patch=1,EE,002C45F4,word,00007075
