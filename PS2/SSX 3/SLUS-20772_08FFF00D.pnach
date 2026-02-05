@@ -30,7 +30,7 @@ patch=0,EE,004807E0,word,31312E30
 patch=0,EE,004807E4,word,00000037
 
 [Spectral]
-uthor=SlyCooperReloadCoded
+author=SlyCooperReloadCoded
 patch=1,EE,E0XX0000,extended,104C94AC
 patch=1,EE,604C94AC,extended,00000000
 patch=1,EE,00020003,extended,0000000C
@@ -44,3 +44,10 @@ patch=1,EE,00000028,extended,000002F0
 patch=1,EE,604C94AC,extended,0000000C
 patch=1,EE,00020003,extended,0000000C
 patch=1,EE,00000028,extended,000002F4
+
+[No Speed Cap]
+author=SlyCooperReloadCoded
+patch=1,EE,2049B720,extended,4B18967F
+patch=1,EE,2049B724,extended,4B18967F
+patch=1,EE,2049BE34,extended,4B18967F
+patch=1,EE,2049BF18,extended,4B18967F
