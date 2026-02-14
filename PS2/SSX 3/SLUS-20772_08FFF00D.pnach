@@ -52,3 +52,12 @@ patch=1,EE,2049B724,extended,4B18967F
 patch=1,EE,2049B870,extended,4B18967F
 patch=1,EE,2049BE34,extended,4B18967F
 patch=1,EE,2049BF18,extended,4B18967F
+
+[Super UBER Replace]
+author=GlitcherOG
+//UBER
+patch=0,EE,0046EA50,word,454D4954
+//SUPER
+patch=0,EE,0046EA54,word,454D4147
+patch=0,EE,0046EA58,word,00000052
+patch=0,EE,0046EA5C,word,00000000
