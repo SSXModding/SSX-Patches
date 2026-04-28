@@ -45,10 +45,10 @@ patch=1,EE,0038801C,word,00000000
 [Untracked As Garibaldi]
 author=GlitcherOG (Archy)
 description=Makes Garibaldi Load Untracked. Press X once loaded in to bypass broken intro camera and cutscene
-patch=1,EE,00383888,word,63697274
-patch=1,EE,0037E9BC,word,0000006B
+patch=1,EE,0037E990,word,72746E75
+patch=1,EE,0037E994,word,006B6361
 
-patch=1,EE,00388010,word,63697274
-patch=1,EE,00388014,word,6B735F6B
-patch=1,EE,00388018,word,00000079
-patch=1,EE,0038801C,word,00000000
+patch=1,EE,00388000,word,72746E75
+patch=1,EE,00388004,word,5F6B6361
+patch=1,EE,00388008,word,00796B73
+patch=1,EE,0038800C,word,00000000
