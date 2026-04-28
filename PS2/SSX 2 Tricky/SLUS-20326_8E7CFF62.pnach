@@ -44,7 +44,7 @@ patch=1,EE,0038801C,word,00000000
 
 [Untracked As Garibaldi]
 author=GlitcherOG (Archy)
-description=Makes Snowdream Load Trick Map. Press X once loaded in to bypass broken intro camera and cutscene
+description=Makes Garibaldi Load Untracked. Press X once loaded in to bypass broken intro camera and cutscene
 patch=1,EE,00383888,word,63697274
 patch=1,EE,0037E9BC,word,0000006B
 
