@@ -31,3 +31,17 @@ patch=1,EE,002AF6E8,word,00000000
 
 patch=1,EE,002C45F0,word,6D726177
 patch=1,EE,002C45F4,word,00007075
+
+[R3 to Freeze Riders]
+patch=1,EE,E1050080,extended,0077CF09
+patch=1,EE,202C203C,extended,00000000
+patch=1,EE,202C215C,extended,00000000
+patch=1,EE,202C21D8,extended,00000000
+patch=1,EE,202C233C,extended,00000000
+patch=1,EE,202C2230,extended,00000000
+patch=1,EE,E1050000,extended,0077CF09
+patch=1,EE,202C203C,extended,3C888889
+patch=1,EE,202C215C,extended,3C888889
+patch=1,EE,202C21D8,extended,3C888889
+patch=1,EE,202C233C,extended,3C888889
+patch=1,EE,202C2230,extended,3C888889
