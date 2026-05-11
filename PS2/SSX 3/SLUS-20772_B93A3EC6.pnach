@@ -9,3 +9,13 @@ patch=1,EE,204011E0,extended,0000D2F0
 [Frozen Event Timer]
 author=SlyCooperReloadCoded and rectangularidiot
 patch=1,EE,204011E4,extended,42700000
+
+
+[Transport Menu]
+patch=1,EE,001AE99C,word,2463CED8
+patch=1,EE,001B179C,word,24040031
+patch=1,EE,001B17B8,word,24040032
+patch=1,EE,00196790,word,00000000
+patch=1,EE,00196794,word,00000000
+patch=1,EE,00196798,word,00000000
+patch=1,EE,0019679C,word,00000000
