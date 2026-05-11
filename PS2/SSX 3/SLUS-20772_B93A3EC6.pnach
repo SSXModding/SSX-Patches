@@ -4,7 +4,7 @@ patch=1,EE,203C68E0,extended,0019DB84
 
 [Frozen Demo Idle Timer]
 author=SlyCooperReloadCoded and rectangularidiot
-patch=1,EE,204011E0,extended,0000D2F0
+patch=1,EE,204011D8,extended,00000000
 
 [Frozen Event Timer]
 author=SlyCooperReloadCoded and rectangularidiot
