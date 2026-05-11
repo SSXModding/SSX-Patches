@@ -1,4 +1,4 @@
-[Extended Character Select on Main Menu]
+[Full Character Select on Main Menu]
 author=SlyCooperReloadCoded and rectangularidiot
 patch=1,EE,203C68E0,extended,0019DB84
 
@@ -6,12 +6,21 @@ patch=1,EE,203C68E0,extended,0019DB84
 author=SlyCooperReloadCoded and rectangularidiot
 patch=1,EE,204011D8,extended,00000000
 
+[Frozen Demo Idle Timer (Alternate)]
+author=SlyCooperReloadCoded
+patch=1,EE,2019EE0C,extended,24420000 // Might need to start with 00 instead of 20?
+patch=1,EE,201ACE38,extended,24420000
+
 [Frozen Event Timer]
 author=SlyCooperReloadCoded and rectangularidiot
 patch=1,EE,204011E4,extended,42700000
 
+[Frozen Event Timer (Alternate)]
+author=SlyCooperReloadCoded
+patch=1,EE,201286C8,extended,46020001 // Might need to start with 00 instead of 20?
 
-[Transport Menu]
+[Lodge and Osprey Unlocked]
+author=modeco80
 patch=1,EE,001AE99C,word,2463CED8
 patch=1,EE,001B179C,word,24040031
 patch=1,EE,001B17B8,word,24040032
@@ -19,3 +28,18 @@ patch=1,EE,00196790,word,00000000
 patch=1,EE,00196794,word,00000000
 patch=1,EE,00196798,word,00000000
 patch=1,EE,0019679C,word,00000000
+
+[Pause Menu Unlocked]
+author=SlyCooperReloadCoded
+patch=1,EE,203C6DE8,extended,00000000 // Big Radio
+patch=1,EE,203C6E00,extended,00000000 // Session Area
+patch=1,EE,203C6E04,extended,00000000 // Peak Info
+patch=1,EE,203C6E08,extended,00000000 // Mountain Info
+patch=1,EE,203C6E0C,extended,00000000 // Message Center
+patch=1,EE,203C6DE0,extended,00000000 // Restart Competition
+patch=1,EE,203C6DFC,extended,00000000 // Quit Competition
+patch=1,EE,203C6DF4,extended,00000000 // Restart Challenge
+patch=1,EE,203C6DF8,extended,00000000 // Quit Challenge
+patch=1,EE,203C6DD8,extended,00000000 // Unknown
+patch=1,EE,203C6DE4,extended,00000000 // Unknown
+patch=1,EE,203C6DF0,extended,00000000 // Unknown
