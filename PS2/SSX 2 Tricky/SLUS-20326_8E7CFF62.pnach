@@ -76,3 +76,9 @@ patch=1,EE,60336D98,extended,00000000
 patch=1,EE,00020001,extended,00005970
 patch=1,EE,60336D98,extended,00000000
 patch=1,EE,00020001,extended,00005974
+
+[Always Full Tricky]
+author=SlyCooperReloadCoded
+patch=1,EE,E0020000,extended,10336D98
+patch=1,EE,60336D98,extended,00000007
+patch=1,EE,00020001,extended,000058A8
