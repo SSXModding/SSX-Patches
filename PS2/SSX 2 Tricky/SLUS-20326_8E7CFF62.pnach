@@ -47,35 +47,17 @@ author=GlitcherOG (Archy)
 description=Makes Garibaldi Load Untracked. Press X once loaded in to bypass broken intro camera and cutscene
 patch=1,EE,0037E990,word,72746E75
 patch=1,EE,0037E994,word,006B6361
-
 patch=1,EE,00388000,word,72746E75
 patch=1,EE,00388004,word,5F6B6361
 patch=1,EE,00388008,word,00796B73
 patch=1,EE,0038800C,word,00000000
 
 [Tricks are Never Repeats]
-author=SlyCooperReloadCoded
-patch=1,EE,E0140000,extended,10336D98
-patch=1,EE,60336D98,extended,00000000
-patch=1,EE,00020001,extended,00005950
-patch=1,EE,60336D98,extended,00000000
-patch=1,EE,00020001,extended,00005954
-patch=1,EE,60336D98,extended,00000000
-patch=1,EE,00020001,extended,00005958
-patch=1,EE,60336D98,extended,00000000
-patch=1,EE,00020001,extended,0000595C
-patch=1,EE,60336D98,extended,00000000
-patch=1,EE,00020001,extended,00005960
-patch=1,EE,60336D98,extended,00000000
-patch=1,EE,00020001,extended,00005964
-patch=1,EE,60336D98,extended,00000000
-patch=1,EE,00020001,extended,00005968
-patch=1,EE,60336D98,extended,00000000
-patch=1,EE,00020001,extended,0000596C
-patch=1,EE,60336D98,extended,00000000
-patch=1,EE,00020001,extended,00005970
-patch=1,EE,60336D98,extended,00000000
-patch=1,EE,00020001,extended,00005974
+author=modeco80
+patch=0,EE,001572CC,word,00001025 // move v0,zero
+patch=0,EE,001572E0,word,00000000
+patch=0,EE,001572E4,word,00000000
+patch=0,EE,00157304,word,00000000
 
 [Always Full Tricky]
 author=SlyCooperReloadCoded
