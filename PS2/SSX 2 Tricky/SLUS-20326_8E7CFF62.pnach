@@ -64,3 +64,22 @@ author=SlyCooperReloadCoded
 patch=1,EE,E0020000,extended,10336D98
 patch=1,EE,60336D98,extended,00000007
 patch=1,EE,00020001,extended,000058A8
+
+[60 FPS Replays]
+author=modeco80
+patch=1,EE,001EF8F0,word,24040001
+
+[World Circuit Race - Frozen Opponents]
+author=SlyCooperReloadCoded
+patch=1,EE,E00B0000,extended,10337CF2
+patch=1,EE,E00A0004,extended,0032DE8C
+patch=1,EE,60336DB8,extended,FFFFFFFF
+patch=1,EE,00020001,extended,00000424
+patch=1,EE,60336DD8,extended,FFFFFFFF
+patch=1,EE,00020001,extended,00000424
+patch=1,EE,60336DF8,extended,FFFFFFFF
+patch=1,EE,00020001,extended,00000424
+patch=1,EE,60336E18,extended,FFFFFFFF
+patch=1,EE,00020001,extended,00000424
+patch=1,EE,60336E38,extended,FFFFFFFF
+patch=1,EE,00020001,extended,00000424
