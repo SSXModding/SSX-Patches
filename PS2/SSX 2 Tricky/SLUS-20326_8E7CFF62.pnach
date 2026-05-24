@@ -83,3 +83,10 @@ patch=1,EE,60336E18,extended,FFFFFFFF
 patch=1,EE,00020001,extended,00000424
 patch=1,EE,60336E38,extended,FFFFFFFF
 patch=1,EE,00020001,extended,00000424
+
+[World Circuit Race - Start at Finals]
+author=SlyCooperReloadCoded
+patch=1,EE,E0030000,extended,10337CF2
+patch=1,EE,E0020004,extended,0032DE8C
+patch=1,EE,0032E5B0,extended,00000002
+patch=1,EE,0032DE9C,extended,00000002
