@@ -90,3 +90,12 @@ patch=1,EE,E0030000,extended,10337CF2
 patch=1,EE,E0020004,extended,0032DE8C
 patch=1,EE,0032E5B0,extended,00000002
 patch=1,EE,0032DE9C,extended,00000002
+
+[Free Exploration]
+author=Linkz + SlyCooperReloadCoded
+patch=1,EE,20103368,extended,3C020001
+patch=1,EE,2013C3B4,extended,00000000
+patch=1,EE,E0030000,extended,10337CF2
+patch=1,EE,60336D98,extended,00000001
+patch=1,EE,00020002,extended,00000430
+patch=1,EE,000001A8,extended,00000000
