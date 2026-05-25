@@ -93,23 +93,20 @@ patch=1,EE,0032DE9C,extended,00000002
 
 [Free Exploration]
 author=Linkz + SlyCooperReloadCoded
-patch=1,EE,20103368,extended,3C020001
-patch=1,EE,2013C3B4,extended,00000000
+description=Disables resetting, changes all touched terrain to normal snow, puts a janky warp on Select (careful, it works everywhere)
+patch=1,EE,20118F10,extended,03E00008
+patch=1,EE,20118F14,extended,00000000
 patch=1,EE,E0030000,extended,10337CF2
 patch=1,EE,60336D98,extended,00000001
 patch=1,EE,00020002,extended,00000430
 patch=1,EE,000001A8,extended,00000000
-
-[Emergency Warp]
-author=SlyCooperReloadCoded
-description=Hold R1 and R3 to warp to safety, even when Select button is disabled
 patch=1,EE,E0040000,extended,10337CF2
 patch=1,EE,E0030000,extended,003352A8
-patch=1,EE,E1020084,extended,0084588D
+patch=1,EE,E102001B,extended,008458B0
 patch=1,EE,60336D98,extended,00000016
 patch=1,EE,00020001,extended,00000428
 patch=1,EE,E0040000,extended,10337CF2
-patch=1,EE,E1010084,extended,0084588D
+patch=1,EE,E101001B,extended,008458B0
 patch=1,EE,203352A8,extended,00000001
-patch=1,EE,E1010084,extended,1084588D
+patch=1,EE,E101001B,extended,108458B0
 patch=1,EE,203352A8,extended,00000000
