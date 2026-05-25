@@ -99,3 +99,17 @@ patch=1,EE,E0030000,extended,10337CF2
 patch=1,EE,60336D98,extended,00000001
 patch=1,EE,00020002,extended,00000430
 patch=1,EE,000001A8,extended,00000000
+
+[Emergency Warp]
+author=SlyCooperReloadCoded
+description=Hold R1 and R3 to warp to safety, even when Select button is disabled
+patch=1,EE,E0040000,extended,10337CF2
+patch=1,EE,E0030000,extended,003352A8
+patch=1,EE,E1020084,extended,0084588D
+patch=1,EE,60336D98,extended,00000016
+patch=1,EE,00020001,extended,00000428
+patch=1,EE,E0040000,extended,10337CF2
+patch=1,EE,E1010084,extended,0084588D
+patch=1,EE,203352A8,extended,00000001
+patch=1,EE,E1010084,extended,1084588D
+patch=1,EE,203352A8,extended,00000000
