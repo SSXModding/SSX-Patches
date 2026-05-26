@@ -146,8 +146,31 @@ patch=1,EE,200A00AC,extended,FFFFFFFF
 patch=1,EE,200A00B0,extended,00000000
 patch=1,EE,200A00B4,extended,00000000
 patch=1,EE,200A00B8,extended,00000000
-//Makeshift replacement Select button warp (WARNING: works in cutscenes and replays, desyncs replays if used in runs)
-patch=1,EE,E0080000,extended,10337CF2
+// Makeshift replacement Select button warp
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// WARNING: Due to technical limitations, this custom Select button warp won't work upon loading into a track for the first time.
+// Instead, hold the R3 button the first time you want to warp. It'll cause an animation bug on respawn, but the Select button will
+// work after that point until you quit out to the level select menu, and Select doesn't have any animation issues.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// WARNING: This warp is not restricted to gameplay, and it will work in cutscenes and replays, so make sure to not use it there.
+// It will also desync replays if you use it in normal runs, because it's not a real button input, so the replay rider won't use it.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+patch=1,EE,E0170000,extended,10337CF2
+patch=1,EE,E102001B,extended,008458B0
+patch=1,EE,30400000,extended,003352A8
+patch=1,EE,00000001,extended,00000000
+patch=1,EE,E101001B,extended,108458B0
+patch=1,EE,203352A8,extended,00000000
+patch=1,EE,E1020080,extended,0084588D
+patch=1,EE,30400000,extended,003352BC
+patch=1,EE,00000001,extended,00000000
+patch=1,EE,E1010080,extended,1084588D
+patch=1,EE,203352BC,extended,00000000
+patch=1,EE,E1040080,extended,0084588D
+patch=1,EE,E1030000,extended,303352BC
+patch=1,EE,E1020002,extended,203352BC
+patch=1,EE,60336D98,extended,00000016
+patch=1,EE,00020001,extended,00000428
 patch=1,EE,E1030000,extended,303352A8
 patch=1,EE,E1020002,extended,203352A8
 patch=1,EE,60336D98,extended,00000016
@@ -156,9 +179,3 @@ patch=1,EE,E1030001,extended,303352A8
 patch=1,EE,E1020003,extended,203352A8
 patch=1,EE,60336D98,extended,00000003
 patch=1,EE,00020001,extended,00000424
-patch=1,EE,E0050000,extended,10337CF2
-patch=1,EE,E102001B,extended,008458B0
-patch=1,EE,30400000,extended,003352A8
-patch=1,EE,00000001,extended,00000000
-patch=1,EE,E101001B,extended,108458B0
-patch=1,EE,203352A8,extended,00000000
