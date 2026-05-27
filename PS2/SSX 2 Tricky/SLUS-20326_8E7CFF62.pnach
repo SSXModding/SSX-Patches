@@ -180,3 +180,10 @@ patch=1,EE,E1030001,extended,300F0000
 patch=1,EE,E1020003,extended,200F0000
 patch=1,EE,60336D98,extended,00000003
 patch=1,EE,00020001,extended,00000424
+
+[Low Resolution Patch LOD]
+author=Linkz
+patch=1,EE,001D9CA4,word,00000000
+patch=1,EE,001D9CA8,word,00000000
+patch=1,EE,001D9CB0,word,00000000
+patch=1,EE,001D9CB4,word,00000000
