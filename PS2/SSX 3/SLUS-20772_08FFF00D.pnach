@@ -21,7 +21,7 @@ author=Modeco80
 description=Change the last byte in the patch to different values for diff camera algorithms
 patch=1,EE,0015D08C,word,24110020
 
-[SSX 3 NSTC Online Server Address]
+[SSX 3 NTSC Online Server Address]
 author=GlitcherOG
 description=Updates the Server Address
 patch=0,EE,004807D8,word,322E3434
