@@ -6,6 +6,10 @@ patch=1,EE,002c203c,word,3a888889
 author=modeco80
 patch=1,EE,002c203c,word,bc888889
 
+[Infinite Boost]
+patch=1,EE,602808EC,extended,00003F7F
+patch=1,EE,00010001,extended,0000001E
+
 [No speedcap]
 author=modeco80
 patch=1,EE,002c10d8,word,4851338e
