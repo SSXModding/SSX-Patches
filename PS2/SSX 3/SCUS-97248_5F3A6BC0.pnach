@@ -68,3 +68,8 @@ patch=1,EE,003796fc,word,44806000
 // Patch Segment "Trampoline"
 patch=1,EE,001874e8,word,0c0de5b4
 patch=1,EE,001874ec,word,00804821
+
+[60FPS]
+author=modeco80
+comment=60 FPS gameplay
+patch=0,EE,0025d520,word,2a220000
