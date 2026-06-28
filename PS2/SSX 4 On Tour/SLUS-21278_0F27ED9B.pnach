@@ -2,3 +2,6 @@
 author=MelA
 patch=1,EE,003132B4,extended,01001124
 patch=1,EE,003132B8,extended,15000010
+
+[No Monster Trick Slowdown]
+patch=1,EE,202AD75C,extended,00000000
