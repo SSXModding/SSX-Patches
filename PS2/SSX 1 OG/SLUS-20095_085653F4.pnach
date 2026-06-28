@@ -45,3 +45,10 @@ patch=1,EE,202C215C,extended,3C888889
 patch=1,EE,202C21D8,extended,3C888889
 patch=1,EE,202C233C,extended,3C888889
 patch=1,EE,202C2230,extended,3C888889
+
+[60fps Replay]
+author=modeco80
+comment=Disables the 30 FPS cap placed in replay
+// 001e5568 is used to fill v1 in the show function for the main replay overlay
+// this value is global and can drop below 30 fps (i guess if that was desired?)
+patch=0,EE,001e5568,word,24030001 // li v1,0x1
