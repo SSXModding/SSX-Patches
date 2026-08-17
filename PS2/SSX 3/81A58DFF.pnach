@@ -7688,3 +7688,7 @@ patch=0,EE,004460E0,word,00000000
 patch=0,EE,00446120,word,00000000
 patch=0,EE,00446158,word,00000000
 patch=0,EE,0044624C,word,00000000
+
+[Disable Build Info]
+author=GlitcherOG
+patch=0,EE,0050D090,word,00000000
