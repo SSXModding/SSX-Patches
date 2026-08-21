@@ -16,9 +16,12 @@ description=Disable perf frame skip
 patch=0,EE,00230794,word,00000000
 patch=0,EE,002307A0,word,00000000
 
-[SSX 3 PAL Online Server Address]
-author=GlitcherOG
-patch=0,EE,004801E8,word,322E3434
-patch=0,EE,004801EC,word,322E3232
-patch=0,EE,004801F0,word,31312E30
-patch=0,EE,004801F4,word,00000037
+[SSX 3 Online]
+author=GlitcherOG(Archy)&modeco80
+//DNAS Bypass
+patch=0,EE,00256174,word,3c020000
+//Server Address
+patch=0,EE,004801E8,word,6F787373
+patch=0,EE,004801EC,word,726F2E72
+patch=0,EE,004801F0,word,00000067
+patch=0,EE,004801F4,word,00000000
