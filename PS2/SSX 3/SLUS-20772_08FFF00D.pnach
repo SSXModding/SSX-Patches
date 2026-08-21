@@ -21,13 +21,15 @@ author=Modeco80
 description=Change the last byte in the patch to different values for diff camera algorithms
 patch=1,EE,0015D08C,word,24110020
 
-[SSX 3 NTSC Online Server Address]
-author=GlitcherOG
-description=Updates the Server Address
-patch=0,EE,004807D8,word,322E3434
-patch=0,EE,004807DC,word,322E3232
-patch=0,EE,004807E0,word,31312E30
-patch=0,EE,004807E4,word,00000037
+[SSX 3 Online]
+author=GlitcherOG(Archy)& modeco80
+//DNAS Bypass
+patch=0,EE,002565fc,word,3c020000
+//Server Address
+patch=0,EE,004807D8,word,6F787373
+patch=0,EE,004807DC,word,726F2E72
+patch=0,EE,004807E0,word,00000067
+patch=0,EE,004807E4,word,00000000
 
 [Spectral]
 author=SlyCooperReloadCoded
