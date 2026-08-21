@@ -1,0 +1,7 @@
+60 FPS
+
+801FF348 2C1E0000
+
+No Monster Trick Slowdown
+
+0419EA50 00000000
