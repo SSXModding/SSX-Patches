@@ -16,7 +16,7 @@ description=Disable perf frame skip
 patch=0,EE,002306F4,word,00000000
 patch=0,EE,00230700,word,00000000
 
-[SSX 3 PAL Online Server Address]
+[SSX 3 Online]
 author=Sly/GlitcherOG(Archy)&modeco80
 //DNAS Bypass
 patch=0,EE,002560d4,word,3c020000
