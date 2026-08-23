@@ -63,3 +63,8 @@ patch=0,EE,0046EA50,word,454D4954
 patch=0,EE,0046EA54,word,454D4147
 patch=0,EE,0046EA58,word,00000052
 patch=0,EE,0046EA5C,word,00000000
+
+[60 FPS 2 Players]
+author=Gabominated
+description=60 FPS in 2 players mode. Might need EE overclock (130%).
+patch=0,EE,00317184,word,26310002
