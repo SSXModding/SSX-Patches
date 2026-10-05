@@ -69,6 +69,11 @@ author=Gabominated
 description=60 FPS in 2 players mode. Might need EE overclock (130%).
 patch=0,EE,00317184,word,26310002
 
+[Expand Character Memory]
+author=Zenloup
+description=requires the 128mb feature checkmarked in pcsx2 settings.
+patch=1,EE,0010014C,word,3C0507FE
+
 [SSX 3cam]
 author=modeco80
 comment=Free camera mod for SSX 3
