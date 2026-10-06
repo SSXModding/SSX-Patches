@@ -74,6 +74,12 @@ author=Zenloup
 description=requires the 128mb feature checkmarked in pcsx2 settings.
 patch=1,EE,0010014C,word,3C0507FE
 
+[30 FPS Limit]
+author=Zenloup
+description=to help with slowdown from big character mods
+patch=1,EE,0023070C,word,24030001
+patch=1,EE,004C945C,word,00000001
+
 [SSX 3cam]
 author=modeco80
 comment=Free camera mod for SSX 3
