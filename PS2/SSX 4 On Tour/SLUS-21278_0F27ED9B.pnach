@@ -5,3 +5,134 @@ patch=1,EE,003132B8,extended,15000010
 
 [No Monster Trick Slowdown]
 patch=1,EE,202AD75C,extended,00000000
+
+[Speed cap 180 km/h]
+author=nl-saw: https://github.com/nl-saw
+description=Base cap 135 -> 180 km/h (penalties still apply).
+patch=1,EE,00128B58,word,3C014334
+
+[Speed cap 270 km/h]
+author=nl-saw: https://github.com/nl-saw
+description=Base cap 135 -> 270 km/h (penalties still apply).
+patch=1,EE,00128B58,word,3C014387
+
+[Global max speed x2]
+author=nl-saw: https://github.com/nl-saw
+description=Speed scale x2: exact doubling of every rider's max speed (AI included).
+patch=1,EE,00128B78,word,3C01425E
+patch=1,EE,00128D94,word,3C01425E
+
+[Clamp off - ground (both blocks)]
+author=nl-saw: https://github.com/nl-saw
+description=Skips both ground rescale clamps. Ceiling then = drag equilibrium.
+patch=1,EE,00142C78,word,10000008
+patch=1,EE,00143134,word,10000008
+
+[Air step x1.1]
+author=nl-saw: https://github.com/nl-saw
+description=Air position integrator step x1.1
+patch=1,EE,00105734,word,3C013C96
+
+[Air step x1.2]
+author=nl-saw: https://github.com/nl-saw
+description=Air position integrator step x1.2
+patch=1,EE,00105734,word,3C013CA3
+
+[Air step x1.3]
+author=nl-saw: https://github.com/nl-saw
+description=Air position integrator step x1.3
+patch=1,EE,00105734,word,3C013CB1
+
+[Air step x1.4]
+author=nl-saw: https://github.com/nl-saw
+description=Air position integrator step x1.4
+patch=1,EE,00105734,word,3C013CBF
+
+[Air step x1.5]
+author=nl-saw: https://github.com/nl-saw
+description=Air position integrator step x1.5
+patch=1,EE,00105734,word,3C013CCC
+
+[Air step x2.0]
+author=nl-saw: https://github.com/nl-saw
+description=Air position integrator step x2.0
+patch=1,EE,00105734,word,3C013D08
+
+[Air step x3.0]
+author=nl-saw: https://github.com/nl-saw
+description=Air position integrator step x3.0
+patch=1,EE,00105734,word,3C013D4C
+
+[Ground step x1.1]
+author=nl-saw: https://github.com/nl-saw
+description=Ground/riding movement step x1.1.
+patch=1,EE,00142CCC,word,3C013C96
+
+[Ground step x1.2]
+author=nl-saw: https://github.com/nl-saw
+description=Ground/riding movement step x1.2.
+patch=1,EE,00142CCC,word,3C013CA3
+
+[Ground step x1.3]
+author=nl-saw: https://github.com/nl-saw
+description=Ground/riding movement step x1.3.
+patch=1,EE,00142CCC,word,3C013CB1
+
+[Ground step x1.4]
+author=nl-saw: https://github.com/nl-saw
+description=Ground/riding movement step x1.4.
+patch=1,EE,00142CCC,word,3C013CBF
+
+[Ground step x1.5]
+author=nl-saw: https://github.com/nl-saw
+description=Ground/riding movement step x1.5.
+patch=1,EE,00142CCC,word,3C013CCC
+
+[Ground step x2.0]
+author=nl-saw: https://github.com/nl-saw
+description=Ground/riding movement step x2.0.
+patch=1,EE,00142CCC,word,3C013D08
+
+[Ground step x3.0]
+author=nl-saw: https://github.com/nl-saw
+description=Ground/riding movement step x3.0.
+patch=1,EE,00142CCC,word,3C013D4C
+
+[All modes step x1.5]
+author=nl-saw: https://github.com/nl-saw
+description=Movement step x1.5 in every riding mode (0,1,2,4,5,6,7).
+
+patch=1,EE,00142CCC,word,3C013CCC
+patch=1,EE,0013D3C8,word,3C013CCC
+patch=1,EE,0013D574,word,3C013CCC
+patch=1,EE,0013AEB0,word,3C013CCC
+patch=1,EE,0013EC54,word,3C013CCC
+patch=1,EE,0013CC00,word,3C013CCC
+patch=1,EE,00143AB8,word,3C013CCC
+patch=1,EE,00143C40,word,3C013CCC
+
+[All modes step x2]
+author=nl-saw: https://github.com/nl-saw
+description=Movement step x2 in every riding mode (0,1,2,4,5,6,7).
+
+patch=1,EE,00142CCC,word,3C013D08
+patch=1,EE,0013D3C8,word,3C013D08
+patch=1,EE,0013D574,word,3C013D08
+patch=1,EE,0013AEB0,word,3C013D08
+patch=1,EE,0013EC54,word,3C013D08
+patch=1,EE,0013CC00,word,3C013D08
+patch=1,EE,00143AB8,word,3C013D08
+patch=1,EE,00143C40,word,3C013D08
+
+[All modes step x3]
+author=nl-saw: https://github.com/nl-saw
+description=Movement step x3 in every riding mode (0,1,2,4,5,6,7).
+
+patch=1,EE,00142CCC,word,3C013D4C
+patch=1,EE,0013D3C8,word,3C013D4C
+patch=1,EE,0013D574,word,3C013D4C
+patch=1,EE,0013AEB0,word,3C013D4C
+patch=1,EE,0013EC54,word,3C013D4C
+patch=1,EE,0013CC00,word,3C013D4C
+patch=1,EE,00143AB8,word,3C013D4C
+patch=1,EE,00143C40,word,3C013D4C
