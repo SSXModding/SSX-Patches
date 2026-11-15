@@ -1,0 +1,37 @@
+[Disable intro videos (ea / thx / splash)]
+author=Meridian
+patch=0,EE,001A27C8,word,0000202D
+patch=0,EE,001A27EC,word,0000202D
+patch=0,EE,001A2820,word,0000202D
+
+[Disable $20 payout limit]
+author=Meridian
+patch=0,EE,0011A748,word,00000000
+patch=0,EE,0011786C,word,00000000
+patch=0,EE,0011972C,word,00000000
+
+[Fix Metro Slowdown]
+author=Meridian
+description=Disable perf frame skip
+patch=0,EE,00230C04,word,00000000
+patch=0,EE,00230C10,word,00000000
+
+[Easy Spectral]
+patch=1,EE,202F6F98,extended,240300FF
+patch=1,EE,E0030000,extended,104C94AC
+patch=1,EE,E10200FF,extended,005C130C
+patch=1,EE,30400000,extended,000F0000
+patch=1,EE,00000001,extended,00000000
+patch=1,EE,E1010000,extended,005C130C
+patch=1,EE,200F0000,extended,00000000
+patch=1,EE,E0040000,extended,104C94AC
+patch=1,EE,E103003F,extended,300F0000
+patch=1,EE,604C9D2C,extended,00000001
+patch=1,EE,00000003,extended,0000000C
+patch=1,EE,00000040,extended,00000D24
+patch=1,EE,E0050000,extended,104C94AC
+patch=1,EE,E10400FF,extended,005C130D
+patch=1,EE,E10300FF,extended,005C130E
+patch=1,EE,604C9D2C,extended,00000000
+patch=1,EE,00000003,extended,0000000C
+patch=1,EE,00000040,extended,00000D24
