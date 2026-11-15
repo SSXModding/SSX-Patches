@@ -25,3 +25,23 @@ patch=0,EE,004801E8,word,6F787373
 patch=0,EE,004801EC,word,726F2E72
 patch=0,EE,004801F0,word,00000067
 patch=0,EE,004801F4,word,00000000
+
+[Easy Spectral]
+patch=1,EE,202F67B8,extended,240300FF
+patch=1,EE,E0030000,extended,104C94AC
+patch=1,EE,E10200FF,extended,005BFB0C
+patch=1,EE,30400000,extended,000F0000
+patch=1,EE,00000001,extended,00000000
+patch=1,EE,E1010000,extended,005BFB0C
+patch=1,EE,200F0000,extended,00000000
+patch=1,EE,E0040000,extended,104C94AC
+patch=1,EE,E103003F,extended,300F0000
+patch=1,EE,604C8F2C,extended,00000001
+patch=1,EE,00000003,extended,0000000C
+patch=1,EE,00000040,extended,00000D24
+patch=1,EE,E0050000,extended,104C94AC
+patch=1,EE,E10400FF,extended,005BFB0D
+patch=1,EE,E10300FF,extended,005BFB0E
+patch=1,EE,604C8F2C,extended,00000000
+patch=1,EE,00000003,extended,0000000C
+patch=1,EE,00000040,extended,00000D24
